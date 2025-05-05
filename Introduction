@@ -1,0 +1,9 @@
+public class Introduction{
+    void intro(){
+        system.out.println("This is the introduction part of the challanges.");
+
+    }
+    publicstatic void main(string[]args){
+        (new introduction()).intro();
+    }
+}
