@@ -1,23 +1,18 @@
 import java.util.Scanner;
 
 public class Whileloop {
-    // This program demonstrates a while loop that continues until the user types "exit".
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String choice = "";
+        String answer;
 
-        while (!choice.equalsIgnoreCase("exit")) {
-            System.out.print("\nType yes, no, or exit: ");
-            choice = input.nextLine();
+        System.out.println("Type h to say Hello, anything else to stop:");
+        answer = input.next();
 
-            if (choice.equalsIgnoreCase("yes"))
-                System.out.println("You said YES!");
-            else if (choice.equalsIgnoreCase("no"))
-                System.out.println("You said NO!");
-            else if (!choice.equalsIgnoreCase("exit"))
-                System.out.println("Invalid input.");
+        while (answer.equals("h")) {
+            System.out.println("Hello");
+            answer = input.next();
         }
 
-        System.out.println("Program ended.");
+        System.out.println("Goodbye!");
     }
 }
