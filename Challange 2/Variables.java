@@ -1,4 +1,4 @@
-public class challange2 {
+public class Variables {
     void loss() {
         double initialAmount;
         double finalAmount;
@@ -12,6 +12,6 @@ public class challange2 {
     }
 
     public static void main(String[] args) {
-        new challange2().loss();
+        new Variables().loss();
     }
 }
