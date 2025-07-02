@@ -4,7 +4,7 @@ public class Introduction {
     }
 
     public static void main(String[] args) {
-        // Create an object of Challenge1 to call the intro method
+        
         new Introduction().intro();
     }
 }
